@@ -1,0 +1,2 @@
+rootProject.name = 'highload'
+rootProject.buildFileName = 'build.gradle.kts'
