@@ -8,8 +8,6 @@ ENV WORK /hl
 WORKDIR $WORK/
 
 ADD . .
-RUN ./gradlew build
 EXPOSE 80
 
-CMD tree /var/www/html
 CMD java -jar build/libs/highload-1.0.jar
